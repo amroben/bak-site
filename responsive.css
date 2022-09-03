@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+  .navbar {
+    letter-spacing: 0.1rem;
+    padding: 10px 0;
+  }
+  .heading-context {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100%;
+  }
+  .heading-context h5 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+  }
+
+  .heading-context h1 {
+    font-size: 2em;
+  }
+
+  .heading-context p {
+    font-size: 0.9em;
+  }
+  #about .custom-about {
+    margin-top: 20px;
+  }
+
+  #about .custom-about button {
+    margin: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .heading-context {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 100%;
+  }
+  .heading-context h5 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+    width: 100%;
+  }
+
+  .heading-context h1 {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  .heading-context p {
+    font-size: 0.5em;
+  }
+  #about .custom-about {
+    margin-top: 20px;
+  }
+
+  #about .custom-about button {
+    margin: auto;
+  }
+  #sec {
+    flex-direction: column;
+  }
+  #sec1 p {
+    font-size: 0.9rem;
+  }
+}
