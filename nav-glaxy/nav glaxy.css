@@ -1,0 +1,192 @@
+*{
+    margin: 0px; padding: 0px; font-family: system-ui;
+}
+ul{
+    list-style: none; text-align: center;  font-size: 20px; font-weight: 500; letter-spacing: 4px;
+ 
+}
+body{
+   background: linear-gradient(#01012e,#2c011f);
+   height: 100VH; 
+
+}
+section{
+    background: url(stars1.png);
+    height: 100VH;
+    display: flex; justify-content: center; align-items: center;
+}
+ul li a{
+    text-decoration: none; color: white;background: darkblue; padding:6px 15px; border-radius: 17px ;
+}
+li{margin: 30px 0px;}
+ul:hover li a{ opacity: 0;}
+
+ul li a:hover{
+    transform: scale(1.5); display: inline-block; width: 120px;
+    transition: 0.5s ; background: darkmagenta; opacity: 1;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+   
+    
+ }
+  ul li::after{
+    content: attr(data-text); color: white;
+    position: absolute;
+    left: 50%;top: 50%;
+
+    transform: translate(-50%,-50%);
+    font-size: 80PX; font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0;
+    pointer-events: none;
+    letter-spacing: 50px;
+   
+
+  }
+ul li:hover:after{
+    opacity: 0.5;
+    letter-spacing: 5px;
+    transition: 0.5s;
+    
+}
+ul li:before{
+    opacity:0.5;
+
+    content: ''; background-color: white;
+    position: absolute;
+    
+    width: 180px;height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+transition: 0.5s;
+    transform: translate(-50%,50%); opacity: 0;
+}
+ul li:hover:before{
+    opacity: 0.5;
+
+    content: ''; background-color: white;
+    position: absolute;
+    top: 50%;
+    width: 80px;height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 0.5;
+
+    transform: translate(-50%,50%); 
+}
+ul .s1:hover:before{
+    
+
+    content: ''; background: url(sun.jpg); background-position: 100%;
+    position: absolute;
+   TOP: 1%; left: 15%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+ul .m:hover:before{
+    
+
+    content: ''; background: url(mercury-removebg-preview.png); background-position: 100%;
+    position: absolute;
+    top: 10%; right: 10%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+
+ul .V:hover:before{
+    
+
+    content: ''; background: url(venuss.jpg); background-position: 60%;
+    position: absolute;
+    TOP: 20%; left: 20%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+
+ul .E:hover:before{
+    
+
+    content: ''; background: url(earth.jpg); background-position: 50%;
+    position: absolute;
+    TOP: 60%; left: 30%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+ul .j:hover:before{
+    
+
+    content: ''; background: url(Jupiter.jpg); background-position: 50%;
+    position: absolute;
+    TOP: 70%; right: 10%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+
+ul .S2:hover:before{
+    
+
+    content: ''; background: url(Saturn.jpg); background-position :50% ;
+    position: absolute;
+    TOP:45%; left: 10%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+
+ul .U:hover:before{
+    
+
+    content: ''; background: url(uranus-plasmoide.jpeg); background-position: 50%;
+    position: absolute;
+    TOP: 10%; right: 50%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+ul .n:hover:before{
+    
+
+    content: ''; background: url(raw.jpg); background-position: 50%;
+    position: absolute;
+    TOP: 70%; left: 10%;
+    width: 100px;height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 80px orangered;
+    opacity: 1;
+
+    transform: translate(-50%,50%); 
+}
+
+
+
+
+
+
+
