@@ -1,0 +1,141 @@
+
+*{
+    padding: 0; margin: 0;
+}
+body{
+    width: 100%;
+    height: 100VH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right,#1D0038,#21013D,#451069,#451069,#8A2CBE);
+}
+.cont{
+    width: 85%;
+    height: 82%;
+    display: flex;
+    background-color: white;
+    box-shadow: 10px 15px 30px rgba(49, 47, 47, 0.774);
+}
+.pic{
+    width:60%;
+    height: 100%;
+    background: url(1.webp);
+    background-size: cover;
+}
+
+.log{
+    width: 40%;
+    height: 100%;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    background: linear-gradient(to right,#E8E4EF,#E8E4EF,#FBFBFC,#FFFFFF);
+
+}
+.log h2{
+    font-family: system-ui;
+    font-weight: 400;
+    color: #1D0038;
+
+}
+.log input{
+    padding:7px 25px;
+    margin: 10px 0px;
+    outline: none;
+    background: #E54BBD;
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
+::placeholder{
+    color: white;
+}
+.log form{
+    display: flex; flex-direction: column;
+}
+ .log button {
+    border: none;
+    padding: 7px 0px;
+    color: white;
+    font-family: sans-serif;
+    background-color: #8C2DBF;
+    cursor: pointer;
+  }
+ .log span{
+     text-align: center;
+     font-family: system-ui;
+     font-weight: 350;
+     cursor: pointer;
+     padding-top: 5px;
+ }
+ .cont1{
+    display: none;
+   
+ }
+ .pic1{
+    width:100%;
+    height: 50%;
+    background: url(1.webp);
+    background-size: cover;
+}
+.log1{
+    width: 100%;
+    height: 50%;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    background: linear-gradient(to right,#E8E4EF,#E8E4EF,#FBFBFC,#FFFFFF);
+
+}
+.log1 h2{
+    font-family: system-ui;
+    font-weight: 400;
+    color: #1D0038;
+
+}
+
+.log1 form{
+    display: flex; flex-direction: column;
+}
+ .log1 button {
+    border: none;
+    padding: 7px 0px;
+    color: white;
+    font-family: sans-serif;
+    background-color: #8C2DBF;
+    cursor: pointer;
+  }
+ .log1 span{
+     text-align: center;
+     font-family: system-ui;
+     font-weight: 350;
+     cursor: pointer;
+     padding-top: 5px;
+ }
+
+
+ @media (max-width:750px){
+    .cont{
+        display: none;
+    }
+  .cont1{
+    display: block;
+    background-color: white;
+    width: 85%;
+ height: 89%;
+ display: flex;
+ flex-direction: column;
+ box-shadow: 10px 15px 25px rgba(49, 47, 47, 0.774);
+
+  }  
+ }
+ .log1 input{
+    padding:7px 25px;
+    margin: 7px 0px;
+    outline: none;
+    background: #E54BBD;
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
